@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Map</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <style>
+    #map {
+      height: 700px;
+      width: 100%;
+    }
+    h3
+    {
+      text-align: center;
+      color: saddlebrown;
+      font-family: SansSerif;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+<h3> Explore the world with us</h3>
+<!--The div element for the map -->
+<div id="map"></div>
+
+<!-- Load the Google Maps JavaScript API -->
+<script>
+  function initMap() {
+    // The location of Uluru
+    const position = { lat: -25.344, lng: 131.031 };
+
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: position,
+    });
+
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: position,
+      map: map,
+      title: "Uluru",
+    });
+  }
+
+  // Load the API with your API key
+  function loadScript() {
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1mdJWcaYBQKKM7NUJ_e362hCdo4U-NU&callback=initMap`;
+    script.defer = true;
+    script.async = true;
+    document.head.appendChild(script);
+  }
+
+  window.onload = loadScript;
+</script>
+</body>
+</html>

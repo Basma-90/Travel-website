@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="untitled113" targetName="untitled113" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c46c8efb-59fc-442c-884f-b09f916bf8c6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.1" />
+  </component>
+  <component name="ProjectId" id="2MhUEupDFRYANfD23VqgpCNqYKe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.quicklists&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\basma sabry\CLionProjects\untitled113\import" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled113" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled113" TARGET_NAME="untitled113" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled113" RUN_TARGET_NAME="untitled113">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c46c8efb-59fc-442c-884f-b09f916bf8c6" name="Changes" comment="" />
+      <created>1678219199422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678219199422</updated>
+      <workItem from="1678219201415" duration="6422000" />
+      <workItem from="1678293849984" duration="14389000" />
+      <workItem from="1678390029600" duration="44582000" />
+      <workItem from="1678667148054" duration="386000" />
+      <workItem from="1678699512852" duration="12851000" />
+      <workItem from="1678923886981" duration="12012000" />
+      <workItem from="1678950930925" duration="21725000" />
+      <workItem from="1679014949306" duration="2867000" />
+      <workItem from="1679159542834" duration="2843000" />
+      <workItem from="1679252129248" duration="20626000" />
+      <workItem from="1679353687576" duration="7731000" />
+      <workItem from="1679366698800" duration="9218000" />
+      <workItem from="1679382997424" duration="7260000" />
+      <workItem from="1679392299481" duration="827000" />
+      <workItem from="1679393157089" duration="12426000" />
+      <workItem from="1679605029521" duration="624000" />
+      <workItem from="1679799185246" duration="11314000" />
+      <workItem from="1679984818498" duration="7750000" />
+      <workItem from="1680768184898" duration="54102000" />
+      <workItem from="1681124406064" duration="2680000" />
+      <workItem from="1681509339803" duration="13000" />
+      <workItem from="1681509406522" duration="43000" />
+      <workItem from="1681509455127" duration="99000" />
+      <workItem from="1681709928860" duration="2896000" />
+      <workItem from="1681901714903" duration="27305000" />
+      <workItem from="1681970783842" duration="2003000" />
+      <workItem from="1682022179758" duration="2383000" />
+      <workItem from="1682231342431" duration="12761000" />
+      <workItem from="1682424070085" duration="3104000" />
+      <workItem from="1682659640639" duration="4325000" />
+      <workItem from="1683198705474" duration="1199000" />
+      <workItem from="1684203070762" duration="1201000" />
+      <workItem from="1684507549431" duration="611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

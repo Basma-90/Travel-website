@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Cards</title>
+    <style>
+        body {
+            font-family: Arial,SansSerif;
+            background-color: #f0f0f0;
+        }
+
+        .hotel-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-height: 500px;
+
+        }
+
+        .hotel-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+         margin :19px;
+            padding:19px;
+
+            margin-top: 45px;
+            width: 250px;
+        }
+
+        .hotel-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hotel-card h3 {
+            margin: 15px 0;
+        }
+
+        .hotel-card p {
+            color: #666;
+        }
+        .button_hotel input {
+            text-decoration: none;
+            padding: 15px 40px;
+            border: 3px solid white;
+            background-color: white;
+            border-radius: 15px;
+            color: black;
+            clear: both;
+            align-content: center;
+            text-align: center;
+            transition: .3s;
+             margin-top: 50px;
+            margin-left: 400px;
+            width: 500px;
+            height: 40px;
+        }
+        .hotel_photo
+        {
+
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("import/pool-2128578__340.jpg");
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-position: center;
+            background-attachment: fixed;
+        }
+.hotel_photo img
+{
+  width: 100%;
+    opacity: .3%;
+
+}
+.hotel_photo h3
+{
+    text-align: center;
+    align-content: center;
+    font-size: 3.5em;
+    font-family: SansSerif;
+    align-items: center;
+    margin-left: 360px;
+}
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+<section class="hotel_photo">
+        <h3>Hotels and places to stay in</h3>
+
+</section>
+<section class="_button">
+<div class ="button_hotel">
+    <input type="search" placeholder="search your favourite hotel">
+</div>
+</section>
+<div class="hotel-container">
+
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/ef/a4/78/caption.jpg" alt="">
+<h3>White House Hotel Istanbul
+    Istanbul, Turkiye </h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/3c/b4/b7/kowhai-suite.jpg" alt="">
+<h3>Abel Tasman Lodge
+    Marahau, New Zealand </h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/17/f6/4b/jaya-house-river-park.jpg" alt="">
+<h3> Jaya House River Park
+    Siem Reap, Cambodia </h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/a6/c9/70/premier-twin-romm.jpg" alt="">
+<h3>Padma Resort Ubud
+    Payangan, Indonesia </h3>
+        <p>★★★★☆</p>
+    </div>
+
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/1c/ef/97/6c/caption.jpg" alt="">
+<h3>Hotel Colline de France</h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/d2/e2/e3/ikos-aria.jpg" alt="">
+<h3>Ikos Aria
+    Kefalos, Greece </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/78/91/a8/the-omnia.jpg" alt="">
+<h3> THE OMNIA
+    Zermatt, Switzerland </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/24/9c/cb/5e/como-cci-aerial-como.jpg" alt="">
+<h3>COMO Cocoa Island
+    Cocoa Island, Maldives </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max300/293299039.webp?k=efb00929ba5eb63c1a60334e03a3a5a86e6f6c8fe1dfe58e0e85a1dbd4ab013d&o=" alt="">
+<h3>Relais Bourgondisch Cruyce
+    Bruges, Belgium </h3>
+        <p>★★★☆☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/270x200/441484044.webp?k=83e17ec50b8c233c52337f5fa1ad64888c18e56ebcd814970703729986f8ba5c&o=" alt="">
+<h3>The Muse Pyramids,
+    Giza, Cairo </h3>
+        <p>★★★☆☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max300/351867352.webp?k=0c17f24abdc7fec1de8094189a3c8672211b87f9c7eae7f84807361d43cdaae9&o=" alt="">
+<h3>Homewood Suites By Hilton Destin
+
+    Destin, United States of America </h3>
+        <p>★★★☆☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max300/349135177.webp?k=3bdf8e5e409e4d9507ae8f714aff6514e1c65b1701a8ba99774b5728e54ed635&o=" alt="">
+<h3>Beachside Inn,
+    Destin, United States of America </h3>
+        <p>★★★☆☆</p>
+    </div>
+
+
+    <div class="hotel-card">
+        <img src="import/exterior-view.jpg" alt="">
+        <h3>  La Maison Favart </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/view-from-property.jpg" alt="">
+        <h3> InterContinental Paris - Le Grand  </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/facade.jpg" alt="">
+        <h3>  Hotel Regent's Garden - Astotel</h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/standard-twin-room.jpg" alt="">
+        <h3> Hotel Le 123 Sebastopol - Astotel</h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/le-vip-paris-yacht-hotel.jpg" alt="">
+        <h3>2022
+            Sponsored
+            Le VIP Paris Yacht Hotel </h3>
+        <p>★★★★★</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/our-reception-hall.jpg" alt="">
+        <h3>  Hotel de la Porte Doree</h3>
+        <p>★★★☆☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/hotel-blacony-view.jpg" alt="">
+        <h3> Hotel Locomo</h3>
+        <p>★★★☆☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/hotel-front-view.jpg" alt="">
+        <h3>. Holiday Inn Paris - Gare de Lyon Bastille, an IHG hotel</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/815146-guest-room.jpg" alt="">
+        <h3> Hotel L'interlude</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/triple-room.jpg" alt="">
+        <h3>Hotel Albe Saint Michel </h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/a6/c9/70/premier-twin-romm.jpg" alt="">
+        <h3>Padma Resort Ubud
+            Payangan, Indonesia </h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/hotel-saint-andre-des.jpg" alt="">
+        <h3>Hotel Saint-Andre des Arts</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/the-people-hostel-paris.jpg" alt="">
+        <h3>The People Hostel - Paris 12</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/hotel-paris-bastille.jpg" alt="">
+        <h3> Hotel Paris Bastille</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/lobby.jpg" alt="">
+        <h3> Mercure Paris Gare de Lyon Opera Bastille</h3>
+        <p>★★★★☆</p>
+    </div>
+    <div class="hotel-card">
+        <img src="import/hotel-viator-paris-gare.jpg" alt="">
+        <h3> Hotel Viator - Paris Gare de Lyon</h3>
+        <p>★★★★☆</p>
+    </div>
+
+
+
+</div>
+</body>
+</html>
